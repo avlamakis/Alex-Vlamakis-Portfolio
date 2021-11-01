@@ -52,7 +52,7 @@ header nav ul li a:hover {
 }
 
 footer {
-    background: #fff;
+    background: #024e76;
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -100,7 +100,7 @@ section {
     width: 35%;
     text-align: center;
     margin: 3.5%;
-    color: red;
+    color: #024e76;
     font-size: 18px;
     line-height: 1.2;
 }
@@ -126,7 +126,7 @@ section {
 }
 
 .experience:not(:last-child) {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
 }
 
 .experience h3 {
@@ -147,7 +147,7 @@ section {
 }
 
 .experience-text p {
-    color: black;
+    color: white;
     font-size: 18px;
 }
 
@@ -161,6 +161,57 @@ section {
     flex: 1 12%;
     margin-right: 20px;
 }
+
+.experience-img img {
+    max-width: 100%;
+}
+
+.section-title {
+    font-size: 48px;
+    color: white;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.reach-out {
+    background-color: white;
+}
+
+.reach-out h2 {
+    color: #024e76;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-info iframe {
+    height: 400px;
+}
+
+.contact-info div {
+    color: #024e76;
+}
+
+.contact-info a {
+    color: #024e76;
+}
+
+
+
+
+
+
 
 
 
