@@ -43,11 +43,16 @@ header nav ul {
     display: flex;
 }
 
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 header nav ul li a:hover {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    background: #fff;
+    background: #024e76;
     border-radius: 15px;
 }
 
@@ -85,30 +90,56 @@ section {
     color: #fff;
 }
 
-.about-me {
-    background-image: url("../images/Forest\ Background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
+.my-info {
+    background-color:white;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -60px;
 }
 
-.my-info {
-    width: 35%;
-    text-align: center;
-    margin: 3.5%;
+.my-info h2 {
+    color: #024e76;
+}
+
+.me {
+    margin-bottom: 20px;
     color: #024e76;
     font-size: 18px;
     line-height: 1.2;
 }
 
-.my-info h2 {
-    font-style: italic;
-    font-size: 55px;
+.me h3 {
     color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+.me-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.me-text {
+    flex: 12;
+}
+
+.me-text p {
+    color: #024e76;
+    font-size: 18px;
+    display: flex;
+}
+
+.me-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.me-img img {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
 }
 
 .history {
