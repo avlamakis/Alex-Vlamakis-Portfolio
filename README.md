@@ -15,10 +15,10 @@ None (AS IS)
 Portfolio to show case my skills as a junior developer. Also while providing information about myself and goals for the future I set out to accomplish/achieve.
 
 ## Usage:
- To accesss my portfolio just follow the following link: 
+ To accesss my portfolio just follow the following link: https://avlamakis.github.io/Alex-Vlamakis-Portfolio/
 
 ## Screenshot
-
+![image](https://user-images.githubusercontent.com/91172337/154571241-25574bb8-a7ee-4f0d-b80b-12a348a7912f.png)
 
 
 ## License:
@@ -28,6 +28,8 @@ None
 Made by myself Alexandros Vlamakis. 
 
 Utilized the following links/sources for assistance:
+
+Portfolio Template/Code Format- https://www.styleshout.com/
 
 ## Questions:
 Github: https://github.com/avlamakis
