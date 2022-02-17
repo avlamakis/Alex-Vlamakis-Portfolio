@@ -1,16 +1,35 @@
 # Alex-Vlamakis-Portfolio
 
-## Purpose
-A website to showcase my abilities as a new coder to potential employers
+## Licensing
+None (AS IS)
 
-## Built With
-*HTML
-*CSS
+[https://choosealicense.com/](https://choosealicense.com/)
 
-## Contribution
-Made by myself Alexandros Vlamakis
+## Table of Contents
+  - [Description](#description)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Questions](#questions)
+  
+## Description:
+Portfolio to show case my skills as a junior developer. Also while providing information about myself and goals for the future I set out to accomplish/achieve.
 
-## Link 
-https://avlamakis.github.io/Alex-Vlamakis-Portfolio/
+## Usage:
+ To accesss my portfolio just follow the following link: 
 
-## Screenshot:
+## Screenshot
+
+
+
+## License:
+None
+
+## Contribution:
+Made by myself Alexandros Vlamakis. 
+
+Utilized the following links/sources for assistance:
+
+## Questions:
+Github: https://github.com/avlamakis
+
+Email: alexvlamakis@gmail.com
