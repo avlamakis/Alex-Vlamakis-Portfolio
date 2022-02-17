@@ -1,161 +1,889 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <meta charset="UTF-8" />
-    <title>My Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>My Portfolio</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 
-<body>
-    <!-- Navigation -->
-    <header>
-        <h1>
-            <a href="/">Alexandros Vlamakis</a>
-        </h1>
+<body id="top">
 
-        <nav>
-            <!-- Unordered List Item -->
-            <ul>
-                <li>
-                    <!-- Anchor Element -->
-                    <a href="#about-me">About Me</a>
-                </li>
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
 
-                <li>
-                    <a href="#work">Work</a>
-                </li>
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-                <li>
-                    <a href="#contact-information">Contact Information</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+	   		<div class="logo">
+		         <a href="index.html">Menu</a>
+		      </div>		      
 
-    <section class="Intro">
-        <h1>
-            Welcome to my Portfolio!
-        </h1>
-    </section>
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>			
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
 
-    <!-- "About Me" Section -->
-    <section id="about-me" class="my-info">
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
 
-        <div class="me">
-            <h2 class="section-title">About Me:</h2>
-            <div class="me-info">
-                <div class="me-img">
-                    <img src="./assets/images/Teamworks Photo[216].jpg" alt="Wells Fargo Team Member Image of Myself" />
-                </div>
+   	<div class="intro-overlay"></div>	
 
-                <div class="me-text">
+   	<div class="intro-content">
+   		<div class="row">
 
-                    <p>
-                        HI! My name is Alexandros Vlamakis. I currently am a Relationship Banker with
-                        Wells Fargo Bank where I have been for about 5 years now. I hold the following licenses:
-                        Series 7, Series 66, SIE, and Life Insurance. I currently attend the University of Utah's
-                        Coding Boot-camp. I am wanting to switch career paths into the Technology world as everything
-                        is becoming more advanced. I see great opportunity for growth within this field;
-                        primarily as either a front end or back end developer. I believe that as Technology advances
-                        being within these roles will allow me to help a wider group of individuals or companies with
-                        more
-                        complex
-                        issues that they may or may not
-                        understand.
-                    </p>
-                </div>
-            </div>
-    </section>
+   			<div class="col-twelve">
 
-    <!-- "Work" Section -->
-    <section id="work" class="history">
-        <h2 class="section-title"> Work </h2>
+	   			<h5>Hello, World.</h5>
+	   			<h1>My name is Alexandros Vlamakis</h1>
 
-        <div class="experience">
-            <h3 class="section-title">Horiseon Website</h3>
-            <div class="experience-info">
-                <div class="experience-img-1">
-                    <a href="https://avlamakis.github.io/U-of-U-Horiseon/">
-                        <img src="./assets/images/Horiseon Website-Screenshot.png" alt="Horiseon Screenshot" />
-                    </a>
-                </div>
-                <div class="experience-text float-right">
-                    <h4> Index.HTML & CSS </h4>
-                    <p> This was my first challenge I completed while attending the U of U Coding Boot-camp! </p>
-                </div>
-            </div>
-        </div>
+	   			<p class="intro-position">
+	   				<span>Jr. Developer</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="https://www.facebook.com/alex.vlamakis"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://www.instagram.com/gengar_rs/"><i class="fa fa-instagram"></i></a></li>
+		 <li><a href="https://github.com/avlamakis"><i class="fa fa-github"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
 
 
-        <div class="experience">
-            <h3 class="section-title">Run Buddy </h3>
-            <div class="experience-info">
-                <div class="experience-img">
-                    <a href="https://avlamakis.github.io/run-buddy/">
-                        <img src="./assets/images/Run-Buddy Website- Screenshot.png" alt="Run Buddy Screenshot" />
-                    </a>
-                </div>
-                <div class="experience-text float-left">
-                    <h4> Index.HTML & CSS </h4>
-                    <p> Run-Buddy was a starter website assigned to me with guidance to really understand the basics of
-                        html and advanced css.
-                    </p>
-                </div>
-            </div>
-        </div>
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/Teamworks Photo[216].jpg" alt="Profile Picture">
+
+   				<p class="lead">                        
+					HI! My name is Alexandros Vlamakis. I currently am a Relationship Banker with
+					Wells Fargo Bank where I have been for 5 years now. I hold the following licenses:
+					Series 7, Series 66, SIE, and Life Insurance. I currently attend the University of Utah's
+					Coding Boot-camp. I am wanting to switch career paths into the Technology world as everything
+					is becoming more advanced. I see great opportunity for growth within this field;
+					primarily as either a front end or back end developer. I believe that as Technology advances
+					being within these roles will allow me to help a wider group of individuals or companies with
+					more complex issues that they may or may not understand.
+				</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+   			<p>I am currently finishing the University of Utah's Coding Boot-camp. Once finished, I plan on attending Western Governors University to get my Bachelor's Degree in Computer Science. I would like to explore job opportunites in this field as I plan on changing careers in the near future. Here is a link to my <a href="https://www.linkedin.com/in/alexandros-vlamakis-413266221/">LinkedIn</a>" </p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Alexandros Constantinos Vlamakis</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>May 21, 1998</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Relationship Banker, Free Lancer</span>
+   				</li>
+
+   				<li>
+   					<strong>Email:</strong>
+   					<span>alexvlamakis@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+   			<p>Awards:
+				• Golden-spoke Award- Wells Fargo (Top 1% in sales of Wells Fargo)- 2019
+
+				<br>
+				<br>
+
+				Licenses:
+				• Life Insurance License- UT
+				• SIE (Security Industry Essentials)
+				• Series 7
+				• Series 66
+
+				<br>
+				<br>
+
+				Skills:
+				• Mathematics
+				• Customer and Personal Service
+				• Judgement and Decision Making
+				• Complex Problem Solving
+				• Organization
+				• Time Management
+				• Computers and Electronics
+				• Economics and Accounting
+				• Basic knowledge of HTML, CSS, Sequelize, MYSQL, ORM, CRUD, MVC, and JavaScript</p>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>80%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>70%</span></div>
+				   	<strong>CSS/C++</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>90%</span></div>
+				   	<strong>JQuery/Javascript</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent95"><span>60%</span></div>
+				   	<strong>MYSQL/Sequelize</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
 
 
-        <div class="experience">
-            <h3 class="section-title">Ford Focus RS</h3>
-            <div class="experience-info">
-                <div class="experience-img">
-                    <a href="https://www.instagram.com/gengar_rs/?hl=en">
-                        <img src="./assets/images/157072583_933287697415182_3545755989372089969_n(1).jpg"
-                            alt="My Ford Focus RS in American Fork" />
-                    </a>
-                </div>
-                <div class="experience-text float-right">
-                    <h4> Index.HTML & CSS </h4>
-                    <p> This is a test thread, as I have not created enough projects to load to my portfolio </p>
-                </div>
-            </div>
-        </div>
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Relationship Banker</h3>
+	   					<p>January 2021 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Wells Fargo Bank </h4>
+	   					<p>• Serves consumer and small business customers by proactively engaging customers to understand and help with their current and future financial needs
+							   <br>
+							• Works with partners to deliver exceptional customer experience, acquire, deepen, and retain relationships, and help customers succeed financially
+							<br>
+							• Builds relationships with customers by asking questions to learn about their financial needs, understanding customers life events and goals; and share how Wells Fargo can help by following up through proactive outreach, and appointments
+							<br>
+							• Builds relationships with branch employees and partners by working together to best serve customers
+							<br>
+							• Grows a book of business through proactive outreach
+							<br>
+							• Conducts needs based conversations to identify credit, deposit and investment needs of customers
+							<br>
+							• Partners with financial advisors to understand appropriate introductions to address the needs of customers with investment or retirement needs
+							<br>
+							• Serves as a leader in managing risk; understanding and manage risks in the business, adhere to policies, procedures & controls and ensure compliance with applicable laws, rules & regulations.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Personal Banker</h3>
+	   					<p>April 2018 - January 2021</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Wells Fargo Bank</h4>
+	   					<p>• Work in retail banking branches and assist customers with various banking or financial needs.
+							   <br>
+							• Help customers open and manage their bank accounts and finances. Advise clients on financial services and resolve issues. Reach out to prospective customers to sell our services.
+							<br>
+							• Help clients from a planning stand point with their finances in regards to investments, estate planning, etc.
+							<br>
+							• Establish long term relationships with each client through follow up; while creating a book of business for the future through outbound leads, in-person interactions, and follow up calls.
+							<br>
+							• Help coach other team members to improve not on themselves but the branch in general as well.
+							<br>
+							• Lead other team members by example by ensuring each customer gets the right help every time.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Lead Teller</h3>
+	   					<p>August 2017 - April 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Wells Fargo Bank</h4>
+	   					<p>
+							• Coordinate and supervise all aspects of teller operations within the branch ensuring the daily activities of the tellers are performed in a timely, accurate and courteous manner. Order and conduct cash management duties. 
+							<br>
+							• Lead other team members by example by ensuring each customer gets the right help every time.
+							<br>
+							• Help coach other team members to improve not on themselves but the branch in general as well.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+				   <div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Teller</h3>
+						<p>November 2016 - August 2017</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Wells Fargo Bank</h4>
+						<p>
+							• Balance currency, coin, and checks in cash drawers at ends of shifts, and calculate daily transactions using computers, calculators, or adding machines. 
+						 <br>
+						 	• Examine checks for endorsements and to verify other information such as dates, bank names, identification of the persons receiving payments and the legality of the Documents.
+						</p>
+					</div>
+
+				</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Certification Program</h3>
+	   					<p>September 2021 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>University of Utah</h4>
+	   					<p>6 Month Online Coding Boot-camp offered the University of Utah
+							   <br>
+						<a href ="https://bootcamps.continue.utah.edu/coding/landing-dual/?s=Google-Brand&dki=Learn%20Coding&pkw=university%20of%20utah%20coding%20bootcamp&pcrid=534008819481&pmt=e&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CUNIVERSITY-OF-UTAH%7CSEM%7CCODING%7C-%7CONL%7CTIER-1%7CALL%7CBRD%7CEXACT%7CCore%7CBootcamp&utm_term=university%20of%20utah%20coding%20bootcamp&s=google&k=university%20of%20utah%20coding%20bootcamp&utm_adgroupid=109880827567&utm_locationphysicalms=9029774&utm_matchtype=e&utm_network=g&utm_device=c&utm_content=534008819481&utm_placement=&gclid=CjwKCAiAgbiQBhAHEiwAuQ6BkkyMKySRaPeDzE-mFoyz5x0pzDBSv8RCfkbQsXfa0s7EhmAOrTGPGxoCbysQAvD_BwE&gclsrc=aw.ds">Link</a>
+
+						   </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree (In progress)</h3>
+	   					<p>October 2022 - Present </p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Western Governors University</h4>
+	   					<p>Accelerated program to acuqire Bachelor's Degree in Computer Science.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Highschool Diploma</h3>
+	   					<p>August 2013 - May 2016</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Taylorsville Highschool </h4>
+
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
 
 
-    </section>
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
 
-    <!-- Contact Information Section -->
+		<div class="row section-intro">
+   		<div class="col-twelve">
 
-    <section id="contact-information" class="reach-out">
-        <h2 class="section-title"> Contact Informaiton </h2>
-        <div class="contact-info">
-            <div>
-                <h3>Alexandros Vlamakis</h3>
-                <p>
-                    Feel free to contact me via email or by phone from 8 AM MST to 8 PM MST.
-                </p>
+   			<h5>Portfolio</h5>
+   			<h1> Here are some examples of my work</h1>
 
-                <address>
-                    1167 W 4300 S, Unit 27C <br />
-                    Taylorsville, UT <br />
-                    84123 <br />
-                    P: (801) 888-6423 <br />
-                    E: <a href="alexvlamakis@gmail.com">alexvlamakis@gmail.com</a>
-                </address>
-            </div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.872807764024!2d-111.92698068463613!3d40.6767713793358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87528bbcfac601a7%3A0xa22ff16c8f7a98f8!2s1167%20W%204300%20S%2C%20Taylorsville%2C%20UT%2084123!5e0!3m2!1sen!2sus!4v1635704795956!5m2!1sen!2sus"
-                style="border:0;" allowfullscreen="" loading="lazy">
-            </iframe>
-        </div>
-    </section>
+   			<p class="lead"> Each of these projects below I have completed while attending the University of Utah's Coding Bootcamp. (CTRL + Click to access each website/link for my work)</p>
 
-    <!-- Footer -->
+   		</div>   		
+   	</div> <!-- /section-intro--> 
 
-    <footer>
-        <h2> Thank you for visiting my Portfolio! </h2>
-    </footer>
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div id="modal-01" class="bgrid folio-item">
+	               <div class="item-wrap">
+					<img src="./images/Ring Creator Screenshot 2022-02-17 101009.png" alt="Ring Creator Screenshot" />
+					   <a href="https://ring-builder-app.herokuapp.com/" class="overlay">	>                   	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Ring Creator</h3>	     					    
+		     					    	 <span class="folio-types">
+											Ring Creator Project done with Berk Forbes, Lisseth Diaz, Scott Nichols, and myself.
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+					<img src="./images/SAHM Calendar Screenshot 2022-02-17 101446.png" alt="SAHM Calendar Screenshot" />
+	               	<a href="https://sessions21.github.io/Project1-SAHM-Calendar/" class="overlay"></a>>              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">SAHM Calendar</h3>	     					    
+		     					    	<span class="folio-types">
+											First Project completed with Scott Nichols, Berk Forbes, and myself. Project is a stay at home mom calendar.
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+						 <img src="./images/Weather Dashboard-Screenshot.png" alt="Weather Dashboard Screenshot" />
+							<a href="https://avlamakis.github.io/Weather-Dashboard/" class="overlay">	>                   	           
+							  <div class="folio-item-table">
+								  <div class="folio-item-cell">
+											 <h3 class="folio-title">Weather Dashboard</h3>	     					    
+											   <span class="folio-types">
+												 This was my first project utilizing API's to fetch new data.
+											 </span>
+										 </div>	                      	
+							  </div>                    
+						   </a>
+						</div>	               
+						 </div> <!-- /folio-item -->
+
+						 <div class="bgrid folio-item">
+							<div class="item-wrap">
+							 <img src="./images/Password Generator Screenshot.png" alt="Password Screenshot" />
+								<a href="https://avlamakis.github.io/Password-Random-Generator/" class="overlay">	>                   	           
+								  <div class="folio-item-table">
+									  <div class="folio-item-cell">
+												 <h3 class="folio-title">Password-Random-Generator</h3>	     					    
+												   <span class="folio-types">
+													 Random password generator using HTML, CSS, and Javascript.
+												 </span>
+											 </div>	                      	
+								  </div>                    
+							   </a>
+							</div>	               
+							 </div> <!-- /folio-item -->
+
+							 <div class="bgrid folio-item">
+								<div class="item-wrap">
+								 <img src="./images/Team Roster Screenshot.png" alt="Team Roster Screenshot" />
+									<a href="https://github.com/avlamakis/Team-Profile-Generator" class="overlay">	>                   	           
+									  <div class="folio-item-table">
+										  <div class="folio-item-cell">
+													 <h3 class="folio-title">Team Profile Generator</h3>	     					    
+													   <span class="folio-types">
+														A Command-line application which generates a Index.HTML based upon user inputs within the terminal. 
+													 </span>
+												 </div>	                      	
+									  </div>                    
+								   </a>
+								</div>	               
+								 </div> <!-- /folio-item -->
+
+							 
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+						 <img src="./images/README Gen Screenshot.png" alt="README Screenshot" />
+							<a href="https://github.com/avlamakis/PROF-README-GENERATOR" class="overlay">	>                   	           
+							  <div class="folio-item-table">
+								  <div class="folio-item-cell">
+											 <h3 class="folio-title">README Generator</h3>	     					    
+											   <span class="folio-types">
+												 My first CLI project with walk through demonstartion in README around usage of application.
+											 </span>
+										 </div>	                      	
+							  </div>                    
+						   </a>
+						</div>	               
+						 </div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+						 <img src="./images/Horiseon Website-Screenshot.png" alt="Horiseon Screenshot" />
+							<a href="https://avlamakis.github.io/U-of-U-Horiseon/" class="overlay">	>                   	           
+							  <div class="folio-item-table">
+								  <div class="folio-item-cell">
+											 <h3 class="folio-title">Horiseon</h3>	     					    
+											   <span class="folio-types">
+												 This was my first challenge I completed while attending the U of U Coding Boot-camp!
+											 </span>
+										 </div>	                      	
+							  </div>                    
+						   </a>
+						</div>	               
+						 </div> <!-- /folio-item -->
+
+						 <div class="bgrid folio-item">
+							<div class="item-wrap">
+							 <img src="./images/Run-Buddy Website- Screenshot.png" alt="Run Buddy Screenshot" />
+								<a href="https://avlamakis.github.io/run-buddy/" class="overlay"></a>>              		                  
+								  <div class="folio-item-table">
+									  <div class="folio-item-cell">
+										  <h3 class="folio-title">Run-Buddy</h3>	     					    
+												  <span class="folio-types">
+													 Run-Buddy was a starter website assigned to me with guidance to really understand the basics of
+													 html and advanced css.
+												</span>		     		
+											 </div> 	                      	
+								  </div>                    
+							   </a>
+							</div>
+							 </div> <!-- /folio-item -->   
+
+							 
+						 <div class="bgrid folio-item">
+							<div class="item-wrap">
+							 <img src="./images/142752295-8340da8e-eef2-4f23-926d-01094cc36ec5.png" alt="Coding Quiz Screenshot" />
+								<a href="https://avlamakis.github.io/Coding-Quiz-/" class="overlay"></a>>              		                  
+								  <div class="folio-item-table">
+									  <div class="folio-item-cell">
+										  <h3 class="folio-title">Coding Quiz</h3>	     					    
+												  <span class="folio-types">
+													Coding Quiz Challenge to test your knowledge of general/basic coding questions.
+												</span>		     		
+											 </div> 	                      	
+								  </div>                    
+							   </a>
+							</div>
+							 </div> <!-- /folio-item -->   
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+	
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+   			<p class="lead"></p>
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Front-end</h3>
+
+		            <p class="desc">I am familiar with CSS, Javascript, Bootstrap, Milligram, HTML, C++, etc. when it comes to overall design and front-end layout of coding.
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Back-end</h3>  
+
+		            <p class="desc">I am familiar with HTML, Sequelize, MYSQL, Handlebars, Javascript, ORM, MVC, Express.js, Node.JS, Server Side API's, Third Party API's, etc. when it comes to back end processing of code.
+	         		</p>
+
+	            </div>	                          
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-chat"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>Financial Consulting</h3>
+
+		            <p class="desc">I have also been apart of the Financial Industry for 5 years. I hold the following licenses: Series 7, Series 66, SIE, and Life Insurance. I can assist/provide guidance in the financial world as well.
+	        			</p> 
+
+	            </div> 	            	               
+             
+
+			   </div> <!-- /service -->
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	<!-- stats Section
+   ================================================== -->
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							25
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> <!-- /stat -->					
+
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1000
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div> <!-- /stat -->
+
+				</div> <!-- /stats-list -->
+
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+
+	</section> <!-- /stats -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">Please submit your contact information below. I will do my best to reach out to you in a timely manner.</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+           1167 W 4300 S Unit 27C<br>
+            Taylorsville, UT<br>
+            84123 US
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me or check out my Github At</h5>
+
+   			<p> alexvlamakis@gmail.com <br>
+				Github:  avlamakis
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: +1 (801) 888-6423
+			   </p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+			      <li><a href="https://www.facebook.com/alex.vlamakis"><i class="fa fa-facebook"></i></a></li>
+			      <li><a href="https://www.instagram.com/gengar_rs/"><i class="fa fa-instagram"></i></a></li>
+				  <li><a href="https://github.com/avlamakis"><i class="fa fa-github"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Kards 2016.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
+
+</html>
